@@ -49,7 +49,7 @@ inquirer
                     choices: ["Tiesto", "Avicii", "Armin Van Buren", "Calvin Harris"],
                     name: "artist"
                 }]).then(function (response1) {
-                console.log('Welcome ' + inquirerResponse.name);
+                console.log('Welcome ' + inquirerResponse.username);
                 console.log('your password is  ' + inquirerResponse.password);
                 console.log('+++++++++++++++++++++++++++++++++++++++++++');
                 console.log('your fav artist is' + respons1.artist + ' because you liked ' + inquirerResponse.type + ' music');
@@ -63,7 +63,7 @@ inquirer
                     choices: ["Eminem", "Kendrick Lamar", "Kanye", "Drake"],
                     name: "artist"
                 }]).then(function (response2) {
-                console.log('Welcome ' + inquirerResponse.name);
+                console.log('Welcome ' + inquirerResponse.username);
                 console.log('your password is  ' + inquirerResponse.password);
                 console.log('+++++++++++++++++++++++++++++++++++++++++++');
                 console.log('your fav artist is' + response2.artist + ' because you liked ' + inquirerResponse.type + ' music');
@@ -76,7 +76,7 @@ inquirer
                     choices: ["Katy Perry", "Demi Lavato", "Beyonce", "Camilla"],
                     name: "artist"
                 }]).then(function (response3) {
-                console.log('Welcome ' + inquirerResponse.name);
+                console.log('Welcome ' + inquirerResponse.username);
                 console.log('your password is  ' + inquirerResponse.password);
                 console.log('+++++++++++++++++++++++++++++++++++++++++++');
                 console.log('your fav artist is' + response3.artist + ' because you liked ' + inquirerResponse.type + ' music');
